@@ -20,7 +20,7 @@ Rubyで色々書いています。最近はPython学習中。
 |言語|Ruby|
 |エディター|Visual Studio Code|
 
-派が違う人も仲良くしてください。
+派が違う人もなかよくしてください。
 
 # Twitter
 [https://twitter.com/hikarilla](https://twitter.com/hikarilla)
