@@ -24,3 +24,5 @@ Rubyで色々書いています。最近はPython学習中。
 
 # Twitter
 [https://twitter.com/hikarilla](https://twitter.com/hikarilla)
+
+**このアカウント以外は管理外です。**
