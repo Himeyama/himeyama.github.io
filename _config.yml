@@ -1,4 +1,4 @@
-baseurl: "/jekyll-hikari"
+# baseurl: ""
 
 exclude:
     - article.new
