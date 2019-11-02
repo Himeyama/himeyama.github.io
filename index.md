@@ -1,5 +1,7 @@
 ---
 layout: home
-title: ウェルカム
+title: ひかりのホームページ
 list_title: "投稿一覧"
 ---
+
+# ウェルカム
