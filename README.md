@@ -1,8 +1,3 @@
----
-layout: article
-title: README
----
-
 # jekyll-hikari
 
 ## 概要
