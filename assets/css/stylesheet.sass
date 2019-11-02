@@ -1,0 +1,102 @@
+---
+---
+
+$font-color: #334
+$a-color: #29e
+$bg-gray: #eef
+
+body
+    margin: 0
+    color: $font-color
+    display: flex
+    flex-flow: column
+    min-height: 100vh
+
+    a
+        color: $a-color
+        text-decoration: none
+
+    header
+        height: 80px
+        background: $font-color
+        color: $bg-gray
+        line-height: 80px
+        font-size: 26px
+        user-select: none
+        div#header
+            max-width: 1200px
+            margin: 0 auto
+            a
+                color: $bg-gray
+
+    footer
+        height: 80px
+        text-align: center
+        line-height: 80px
+        margin-top: 32px
+        background-color: $bg-gray
+
+
+    article
+        flex: 1
+        margin: 0 auto
+        font-size: 16px
+
+        .article_time_box
+            color: #889
+            margin-top: 32px
+            margin-bottom: -32px
+
+        blockquote
+            border-left: 4px solid #dde
+            margin-left: 0
+            padding-left: 32px
+
+        p
+            margin-bottom: 16px
+            margin-top: 0
+
+
+        h1.article_title
+            font-size: 40px
+            border: none
+            min-width: 1200px
+
+        section
+            min-width: 1200px
+            line-height: 2
+
+            h1
+                font-size: 26px
+                border-bottom: 1px solid #ddd
+
+            h2
+                font-size: 24px
+                border-bottom: 1px solid #ddd
+
+            h3
+                font-size: 22px
+
+            h4
+                font-size: 20px
+
+            h5
+                font-size: 18px
+
+            h6
+                font-size: 16px
+            
+
+            div.highlight
+                border-radius: 4px
+                pre.highlight
+                    padding: 16px
+                    border-radius: 4px
+
+@media screen and (max-width:360px)
+    body
+        article
+            margin: 0 8px
+        header
+            div#header
+                margin-left: 8px

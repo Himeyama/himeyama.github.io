@@ -1,0 +1,6 @@
+baseurl: "/jekyll-hikari"
+
+exclude:
+    - article.new
+    - LICENCE
+    - README.md

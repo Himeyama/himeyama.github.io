@@ -1,0 +1,9 @@
+#!/usr/bin/ruby
+require "fileutils"
+
+t = Time.now.strftime("_posts/%Y-%m-%d-%H%M%S.md")
+FileUtils.touch t
+
+open t, "w" do |f|
+    f.puts "---\nlayout: article\ntitle: \n---\n"
+end
