@@ -59,6 +59,6 @@ article h6 {
 
 @media screen and (max-width:360px){
     body{
-        max-width: 20px;
+        max-width: 360px;
     }
 }
