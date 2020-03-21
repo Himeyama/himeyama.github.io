@@ -1,9 +1,8 @@
 ---
-layout: home
-title: ひかりのホームページ
+layout: default
+title: 村田のホームページ
 list_title: "ブログ"
 ---
 
-# ウェルカム
-
-ようこそ、ひかりのホームページへ。GitHub Pagesに移行しました。
+# Welcome
+ホームページへようこそ。
