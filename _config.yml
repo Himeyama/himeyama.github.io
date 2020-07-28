@@ -1,6 +1,4 @@
-# baseurl: ""
-
-exclude:
-    - article.new
-    - LICENCE
-    - README.md
+defaults:
+  -
+    values:
+      layout: "default"
