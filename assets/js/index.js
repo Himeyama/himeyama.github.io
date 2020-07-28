@@ -15,7 +15,6 @@ function load(){
         function(){
             if(EleBB.fonts){
                 elebb.reset_elebb()
-                elebb.green = document.title
                 elebb.display()
                 clearInterval(load_font)
             }
@@ -28,3 +27,5 @@ load()
 EleBB.load_font() // フォントの読み込み
 elebb = new EleBB
 elebb.element = "canvas"
+
+elebb.green = "ようこそ"
