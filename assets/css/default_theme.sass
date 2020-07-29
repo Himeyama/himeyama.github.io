@@ -36,3 +36,71 @@ a
 
 p
     margin: 8px auto
+
+code
+    font-family: Consolas, "Courier New", monospace
+    color: #d4d4d4
+
+pre.highlight
+    background-color: #242424
+    display: table
+    width: 100%
+    // &:before
+    //     content: ""
+    //     display: block
+    //     height: 30px
+    //     background-color: #505051
+    // &:after
+    //     content: ""
+    //     display: block
+    //     height: 22px
+    //     background-color: #007acc
+    //     color: white
+
+    .icon
+        display: table-cell
+        background-color: #333333
+        font-family: Segoe MDL2 Assets
+        color: #858585
+        width: 57px
+        font-size: 32px
+        text-align: center
+        user-select: none
+        .copy
+            height: 57px
+            line-height: 57px
+            cursor: pointer
+            &:hover
+                color: white
+                
+
+    code
+        display: table-cell
+        vertical-align: top
+        &::selection
+           background-color: #264f78
+        code
+            display: unset
+            counter-increment: linenumber
+            span
+                &::selection
+                    background-color: #264f78
+                &.nt, &.kt
+                    color: #569cd6
+                &.cp, &.k
+                    color: #c586c0
+                &.na
+                    color: #9cdcfe
+                &.s
+                    color: #ce9178
+                &.nf, &.n
+                    color: #dcdcaa
+                &.mi
+                    color: #b5cea8
+            &:before
+                content: counter(linenumber)
+                width: 42px
+                display: inline-block
+                text-align: right
+                margin-right: 26px
+                color: #858585

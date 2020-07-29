@@ -6,7 +6,7 @@ function rand_color(){
     req.send()
     req.onload = function(e){
         ColorTheme.palette = JSON.parse(req.response)
-        let color_name = Object.keys(ColorTheme.palette)[parseInt(Math.random(Object.keys(ColorTheme.palette).length))]
+        let color_name = Object.keys(ColorTheme.palette)[parseInt(Math.random() * Object.keys(ColorTheme.palette).length)]
         let color, light, dark
         [color, light, dark] = ColorTheme.palette[color_name]
         let style = document.createElement("style")
