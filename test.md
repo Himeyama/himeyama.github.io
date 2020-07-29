@@ -39,3 +39,15 @@ int main(void){
     return 0;
 }
 ```
+
+```ruby
+def hello
+    return "Hello!"
+end
+
+puts hello()
+
+hash = {}
+ary = []
+1
+```

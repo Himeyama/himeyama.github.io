@@ -1,7 +1,6 @@
 ---
 ---
 
-
 body
     font-family: Yu Gothic UI
 
@@ -45,17 +44,9 @@ pre.highlight
     background-color: #242424
     display: table
     width: 100%
-    // &:before
-    //     content: ""
-    //     display: block
-    //     height: 30px
-    //     background-color: #505051
-    // &:after
-    //     content: ""
-    //     display: block
-    //     height: 22px
-    //     background-color: #007acc
-    //     color: white
+    table-layout: fixed
+    word-wrap: break-word
+    word-break: break-all
 
     .icon
         display: table-cell
@@ -66,19 +57,21 @@ pre.highlight
         font-size: 32px
         text-align: center
         user-select: none
-        .copy
+        div
+            width: 57px
             height: 57px
             line-height: 57px
+        .copy
             cursor: pointer
             &:hover
                 color: white
-                
 
     code
         display: table-cell
         vertical-align: top
+        white-space: break-spaces
         &::selection
-           background-color: #264f78
+            background-color: #264f78
         code
             display: unset
             counter-increment: linenumber
@@ -89,9 +82,9 @@ pre.highlight
                     color: #569cd6
                 &.cp, &.k
                     color: #c586c0
-                &.na
+                &.na, &.nb
                     color: #9cdcfe
-                &.s
+                &.s, &.s2
                     color: #ce9178
                 &.nf, &.n
                     color: #dcdcaa
