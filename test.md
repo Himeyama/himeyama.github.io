@@ -9,7 +9,7 @@
 
 <input type="text" value="text">
 
-[localhost](localhost)
+[localhost](//localhost)
 
 # 開始
 ## 開始
