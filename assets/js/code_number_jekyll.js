@@ -15,4 +15,13 @@ code_number_jekyll()
 function copy_code(e){
     let str = e.parentElement.parentElement.getElementsByTagName("code")[0].innerText
     navigator.clipboard.writeText(str)
+    let modal_window = document.createElement("div")
+    modal_window.classList += "cp_modal_window"
+    modal_window.innerHTML = `<div class="main"><div class='message'>コピーしました！</div>
+    <div class="button"><input type="button" value="OK" onclick="close_modal_window(this)"></div></div>`
+    document.body.append(modal_window)
+}
+
+function close_modal_window(e){
+    e.parentElement.parentElement.parentElement.remove()
 }
