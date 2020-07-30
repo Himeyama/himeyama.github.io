@@ -7,7 +7,7 @@ function code_number_jekyll(){
         for(let j = 0; j < r.length; j++){
             r[j] = `<code>${r[j].replace(/\r?\n/g, "")}</code>\n`
         }
-        n.innerHTML = "<div class='icon'><div class='copy' onclick='copy_code(this)'></div></div><code>" + r.join("") + "</code>"
+        n.innerHTML = "<div class='icon'><div class='copy' onclick='copy_code(this)'></div></div>" + r.join("")
     }
 }
 code_number_jekyll()
