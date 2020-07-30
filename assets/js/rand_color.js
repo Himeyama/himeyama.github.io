@@ -2,7 +2,7 @@ class ColorTheme{}
 
 function rand_color(){
     let req = new XMLHttpRequest
-    req.open("GET", "/assets/json/color_list.json")
+    req.open("GET", "https://himeyama.github.io/assets/json/color_list.json")
     req.send()
     req.onload = function(e){
         ColorTheme.palette = JSON.parse(req.response)
